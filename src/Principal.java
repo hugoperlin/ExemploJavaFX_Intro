@@ -117,10 +117,10 @@ public class Principal extends Application {
         botao.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
+                System.out.println("Cliquei no botão...");
+                //Lógica para contar o número de vogais do texto
+                //que foi digitado pelo usuário
 
-                /*Lógica para contar o número de vogais do texto
-                que foi digitado pelo usuário
-                 */
                 //conjunto com as vogais
                 HashSet<String> vogais = new HashSet<>(Arrays.asList("a","e","i","o","u"));
 
